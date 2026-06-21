@@ -26,7 +26,7 @@ if suggestion == "yes":
     question3 = input("Q3: How many hours are there in a day?: ").lower()
 
     if question3 == "24" or question3 == "twenty four" or question3 == "24 hours" or question3 == "twenty four hours":
-        print("Correct....")
+        print(f"Correct.... \n although technically.......")
         count += 1
     else:
         print("!! Wrong !!")
@@ -51,7 +51,7 @@ if suggestion == "yes":
         wrong += 1
 
     if count >= 4:
-        print(f"Congrats YOU WIN !!\nYour score is: {count}")
+        print(f"Congrats YOU WIN !! Your score is: {count}")
     else:
         print(f"Better Luck Next Time !!\nYour score is {count}")
 
